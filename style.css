@@ -1,0 +1,39 @@
+body{
+  background-image: linear-gradient(to right, rgba(94, 83, 247, 0), rgb(0, 182, 0));
+ }
+ *{
+     box-sizing: border-box;
+ }
+ .container{
+     display: grid;
+     grid-template-columns: auto;
+     border: solid black 1px;
+
+  background-color: white;
+ }
+ .center-wrapper{
+     max-width: 400px;
+     margin: 0 auto;
+ }
+ .imput{
+     max-width: 150px;
+ }
+ .row5{
+     display: grid;
+     grid-template-rows: repeat(5,auto);
+     border: blue solid 1px;
+ }
+ .box{
+    min-width: 150px;
+    margin: 0 auto;
+   gap: 10px;
+ }
+ .TITLE{
+   margin: 0 auto;
+   gap: 20px;
+ }
+ .button{
+      min-width: 150px;
+    margin: 0 auto;
+    border-radius: 32px;
+ }
